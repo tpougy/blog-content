@@ -1,0 +1,17 @@
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# aider python
+.venv*/
+.aider*
+
+# Obsidian — machine-specific workspace state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian — community plugin binaries (IDs tracked in community-plugins.json)
+.obsidian/plugins/
