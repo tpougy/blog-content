@@ -13,10 +13,11 @@ This post verifies that the rehype plugin for FEAT-01 correctly renders theme-aw
 
 The image below should render differently in light and dark mode:
 
-![Diagram](./assets/diagram.light.svg)
+![Diagram](/test-theme-images/diagram.light.svg)
 
 ## Regular image (passthrough test)
 
 This image has no `.light` or `.dark` suffix and should render as a single `<img>` tag unchanged in both themes:
 
 ![Normal image](./assets/normal.svg)
+
